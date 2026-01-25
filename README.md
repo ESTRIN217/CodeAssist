@@ -36,19 +36,72 @@
 
 - [x] R8/ProGuard
 
-- [x] Code Completions (Currently for Java only)  
+- [x] Code Completions (Java & Kotlin)  
 
 - [x] Quick fixes (Import missing class and Implement Abstract Methods)  
 
 - [x] Layout Preview (80%)
 
-- [x] Automatic dependency resolution  
+- [x] Automatic dependency resolution
 
-- [ ] Layout Editor
+- [x] Code Formatting (Java, Kotlin, XML, JSON)
 
-- [ ] Debugger
+- [x] Performance Profiler (Memory, CPU, FPS, Battery)
 
-- [ ] Lint 
+- [x] Lint & Static Analysis
+
+- [x] APK Inspector & Analysis
+
+- [x] Advanced Code Templates (26 templates)
+
+- [x] Unit & Instrumentation Testing Support
+
+- [ ] Layout Editor (Visual Layout Designer)
+
+- [ ] Debugger (Step-by-step debugging with breakpoints) 
+
+<img style=" width: 100%;" src=".github/resources/images/hr.jpg">
+
+## Development Tools & APIs
+
+CodeAssist proporciona APIs completas para herramientas de desarrollo Android:
+
+### 🐛 Debugging (`debugger-api`)
+- Breakpoints condicionados
+- Step over/into/out
+- Inspección de variables y stack traces
+- Monitoreo de excepciones en tiempo real
+
+### 📊 Performance Profiler (`profiler`)
+- Monitoreo de memoria (MB usage)
+- CPU profiling
+- FPS tracking
+- Thread monitoring
+- Battery impact analysis
+
+### 🔍 Static Analysis (`linter-api`)
+- Análisis de código Java/Kotlin/XML
+- Detección automática de problemas
+- Sugerencias de corrección
+
+### 📐 Layout Editor (`layout-editor`)
+- Editor visual de layouts XML
+- Componentes drag-and-drop
+- Preview en tiempo real
+- Propiedades editables
+
+### 🛠️ Development Tools (`tools-api`)
+- Code Formatting (Java, Kotlin, XML, JSON)
+- APK Inspection & Analysis
+- Permisos, actividades, servicios
+- Análisis de recursos
+
+### 📦 Code Templates
+26 templates de producción para desarrollo moderno:
+- **Activities**: ComposeActivity (predeterminado), AppCompat, Fragment
+- **System Components**: Service, BroadcastReceiver, ContentProvider
+- **Kotlin Patterns**: Room Entity/DAO, Repository, ViewModel, Retrofit, Paging3
+- **Testing**: JUnit4, Espresso, LiveData, Mockito
 
 <img style=" width: 100%;" src=".github/resources/images/hr.jpg">
 
