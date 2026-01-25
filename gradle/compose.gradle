@@ -1,6 +1,6 @@
 // Compose configuration for all modules
 ext {
-    compose = [
+    composeVersions = [
         version: '1.7.0',
         material3Version: '1.2.1',
         navigationVersion: '2.8.0',

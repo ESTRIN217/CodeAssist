@@ -80,6 +80,7 @@ public class MaterialParserFactory implements ProteusParserFactory {
 
     @Nullable
     @Override
+    @SuppressWarnings("unchecked")
     public <T extends View> ViewTypeParser<T> getParser(@NonNull String type) {
         if (type.contains(".")) {
             return null;
@@ -88,6 +89,6 @@ public class MaterialParserFactory implements ProteusParserFactory {
         if (parser == null) {
             return null;
         }
-        return mContext.getParser(parser);
+        return (ViewTypeParser<T>) mContext.getParser(parser);
     }
 }

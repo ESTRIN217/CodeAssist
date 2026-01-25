@@ -26,7 +26,8 @@ El sistema CodeAssist incluye **22 templates de producción**, divididas en las 
 | Kotlin + Async | 7 | Room Entity, Room DAO, Repository, ViewModel, Retrofit, Paging3, Navigation |
 | Data Classes | 1 | Kotlin Data Class con Serializable |
 | XML Layouts | 6 | Compose, Material3, RecyclerView, List Item, Fragment, Form |
-| **TOTAL** | **22** | **Cobertura completa de desarrollo moderno Android** |
+| Testing | 4 | JUnit4 Unit Test, Espresso Instrumented Test, LiveData Test, Mockito |
+| **TOTAL** | **26** | **Cobertura completa de desarrollo moderno Android** |
 
 ## Características Generales
 
