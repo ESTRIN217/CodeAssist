@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design 3 Color Palette -->
+    
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#6750a4</color>
+    <color name="colorOnPrimary">#ffffff</color>
+    <color name="colorPrimaryContainer">#eaddff</color>
+    <color name="colorOnPrimaryContainer">#21005d</color>
+    
+    <!-- Secondary Colors -->
+    <color name="colorSecondary">#625b71</color>
+    <color name="colorOnSecondary">#ffffff</color>
+    <color name="colorSecondaryContainer">#e8def8</color>
+    <color name="colorOnSecondaryContainer">#1d192b</color>
+    
+    <!-- Tertiary Colors (Material Design 3) -->
+    <color name="colorTertiary">#7d5260</color>
+    <color name="colorOnTertiary">#ffffff</color>
+    <color name="colorTertiaryContainer">#ffd8e4</color>
+    <color name="colorOnTertiaryContainer">#31111d</color>
+    
+    <!-- Error Colors -->
+    <color name="colorError">#b3261e</color>
+    <color name="colorOnError">#ffffff</color>
+    <color name="colorErrorContainer">#f9dedc</color>
+    <color name="colorOnErrorContainer">#410e0b</color>
+    
+    <!-- Surface Colors -->
+    <color name="colorBackground">#fffbfe</color>
+    <color name="colorSurface">#fffbfe</color>
+    <color name="colorOnSurface">#1c1b1f</color>
+    <color name="colorSurfaceVariant">#e7e0ec</color>
+    <color name="colorOnSurfaceVariant">#49454e</color>
+    
+    <!-- Outline and Scrim -->
+    <color name="colorOutline">#79747e</color>
+    <color name="colorScrim">#000000</color>
+    
+    <!-- Accent and Control Colors -->
+    <color name="colorAccent">#6750a4</color>
+    <color name="colorControlNormal">#49454e</color>
+    
+    <!-- Utility Colors -->
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+</resources>
