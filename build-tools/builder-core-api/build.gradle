@@ -4,8 +4,8 @@ plugins {
 
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
 
 dependencies {
@@ -20,17 +20,17 @@ dependencies {
     implementation projects.buildTools.builderPersistentCache
     implementation projects.buildTools.builderProcessServices
 
-    implementation 'org.apache.ant:ant:1.10.12'
+    implementation 'org.apache.ant:ant:1.10.14'
     implementation 'javax.inject:javax.inject:1'
-    implementation 'org.jetbrains:annotations:23.0.0'
-    implementation 'org.apache.commons:commons-compress:1.21'
-    implementation 'org.apache.commons:commons-vfs2:2.9.0'
+    implementation 'org.jetbrains:annotations:24.0.1'
+    implementation 'org.apache.commons:commons-compress:1.26.1'
+    implementation 'org.apache.commons:commons-vfs2:2.9.1'
     implementation common.commonsLang3
     implementation common.slf4j
 
     implementation 'org.codehaus.groovy:groovy:3.0.7:grooid'
     //noinspection GradleDependency
-    implementation('org.codehaus.groovy:groovy-ant:3.0.7') {
+    implementation('org.codehaus.groovy:groovy-ant:3.0.21') {
         transitive = false
     }
 }

@@ -16,10 +16,10 @@ dependencies {
     implementation "net.rubygrapefruit:file-events:0.22-milestone-23"
 
     // used in android
-    implementation 'org.apache.commons:commons-vfs2:2.9.0'
+    implementation 'org.apache.commons:commons-vfs2:2.9.1'
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }

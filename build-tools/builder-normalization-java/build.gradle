@@ -12,11 +12,11 @@ dependencies {
     implementation projects.buildTools.builderFunctional
     implementation projects.buildTools.snapshots
 
-    implementation 'org.ow2.asm:asm:9.3'
+    implementation 'org.ow2.asm:asm:9.6'
     implementation common.slf4j
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }

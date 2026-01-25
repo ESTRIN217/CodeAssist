@@ -3,17 +3,17 @@
 }
 
 dependencies {
-    api 'it.unimi.dsi:fastutil:8.5.8'
+    api 'it.unimi.dsi:fastutil:8.5.13'
 
     implementation projects.common
 
     implementation projects.buildTools.builderBaseServices
 
     implementation common.slf4j
-    implementation 'com.esotericsoftware:kryo:5.3.0'
+    implementation 'com.esotericsoftware:kryo:5.4.1'
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }

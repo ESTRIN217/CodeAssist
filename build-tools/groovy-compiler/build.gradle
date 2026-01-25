@@ -10,10 +10,10 @@ dependencies {
     implementation projects.buildTools.builderBaseServicesGroovy
     implementation projects.buildTools.builderBaseServices
 
-    implementation 'com.android.tools:r8:3.3.28'
+    implementation 'com.android.tools:r8:8.3.37'
 }
 
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }

@@ -9,12 +9,12 @@ dependencies {
     implementation project(path: ':build-tools:logging')
     implementation project(path: ':build-tools:project')
 
-    implementation 'it.unimi.dsi:fastutil:8.5.8'
+    implementation 'it.unimi.dsi:fastutil:8.5.13'
     implementation 'org.jetbrains:annotations:23.0.0'
 
     testImplementation 'junit:junit:4.+'
 }
 java {
-    sourceCompatibility = JavaVersion.VERSION_11
-    targetCompatibility = JavaVersion.VERSION_11
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
 }
