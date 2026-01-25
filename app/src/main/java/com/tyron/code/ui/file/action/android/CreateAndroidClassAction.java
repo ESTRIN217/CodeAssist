@@ -10,6 +10,8 @@ import com.tyron.actions.CommonDataKeys;
 import com.tyron.builder.project.api.AndroidModule;
 import com.tyron.builder.project.api.Module;
 import com.tyron.code.template.android.ActivityTemplate;
+import com.tyron.code.template.android.ComposeActivityTemplate;
+import com.tyron.code.template.android.AppCompatActivityTemplate;
 import com.tyron.ui.treeview.TreeNode;
 import com.tyron.ui.treeview.TreeView;
 import com.tyron.code.ui.editor.impl.FileEditorManagerImpl;
@@ -39,7 +41,7 @@ public class CreateAndroidClassAction extends CreateClassAction {
         TreeNode<TreeFile> treeNode = e.getData(CommonFileKeys.TREE_NODE);
 
         CreateClassDialogFragment fragment = CreateClassDialogFragment.newInstance(
-                Collections.singletonList(new ActivityTemplate()), Collections.emptyList());
+                Collections.singletonList(new ComposeActivityTemplate()), Collections.emptyList());
         fragment.show(treeFragment.getChildFragmentManager(), null);
         fragment.setOnClassCreatedListener((className, template) -> {
             try {
