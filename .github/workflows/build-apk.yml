@@ -31,7 +31,7 @@ jobs:
         with:
           arguments: assembleDebug
           distributions-cache-enabled: false     # <- DESACTIVADA: evita el intento de restaurar la caché del wrapper que falla con 400
-          dependencies-cache-enabled: false     # <- DISABLED to avoid "Cache service responded with 400"
+          dependencies-cache-enabled: true    # <- DISABLED to avoid "Cache service responded with 400"
           configuration-cache-enabled: true
 
       - name: Upload debug apk
