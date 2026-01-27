@@ -27,12 +27,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Build debug apk
-        uses: eskatos/gradle-command-action@v1
-        with:
-          arguments: assembleDebug
-          distributions-cache-enabled: false     # <- DESACTIVADA: evita el intento de restaurar la caché del wrapper que falla con 400
-          dependencies-cache-enabled: true    # <- DISABLED to avoid "Cache service responded with 400"
-          configuration-cache-enabled: true
+        run: ./gradlew assembleDebug --no-daemon
 
       - name: Upload debug apk
         uses: actions/upload-artifact@v4
