@@ -14,7 +14,7 @@ jobs:
         with:
           access_token: ${{ github.token }}
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
     
       - name: set up JDK 21
         uses: actions/setup-java@v5
@@ -30,7 +30,7 @@ jobs:
         uses: eskatos/gradle-command-action@v1
         with:
           arguments: assembleDebug
-          distributions-cache-enabled: true
+          distributions-cache-enabled: false     # <- DESACTIVADA: evita el intento de restaurar la caché del wrapper que falla con 400
           dependencies-cache-enabled: true
           configuration-cache-enabled: true
 
